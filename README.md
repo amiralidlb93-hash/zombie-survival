@@ -8,7 +8,7 @@ A browser-based zombie survival game built with **HTML, CSS, and JavaScript**.
 
 Play the game on **GitHub Pages**:
 
-**[Play Zombie Survival](YOUR-GITHUB-PAGES-LINK)**
+**[Play Zombie Survival](https://amiralidlb93-hash.github.io/zombie-survival/)**
 
 ## 🎮 Controls
 
