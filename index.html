@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zombie Survival</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="game-shell">
+    <header class="topbar">
+      <div class="brand"><span class="brand-dot"></span> ZOMBIE <strong>SURVIVAL</strong></div>
+      <div class="stats">
+        <div class="stat"><span class="stat-label">HEALTH</span><strong id="health">100</strong></div>
+        <div class="stat"><span class="stat-label">SCORE</span><strong id="score">0</strong></div>
+        <div class="stat"><span class="stat-label">WAVE</span><strong id="wave">1</strong></div>
+      </div>
+    </header>
+    <section class="game-frame">
+      <canvas id="game" width="960" height="600" aria-label="Zombie Survival game"></canvas>
+      <div class="overlay" id="overlay">
+        <div class="overlay-card">
+          <div class="eyebrow">SURVIVE THE NIGHT</div>
+          <h1 id="message">Zombie Survival</h1>
+          <p id="hint">Move with WASD · Aim with mouse · Hold click to shoot</p>
+          <button id="start">START GAME</button>
+        </div>
+      </div>
+    </section>
+    <footer class="helpbar">
+      <span><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> Move</span>
+      <span><span class="mouse-icon">⌖</span> Aim</span>
+      <span><span class="mouse-icon">●</span> Hold left click to shoot</span>
+      <span class="help-note">Don’t let them get too close.</span>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
