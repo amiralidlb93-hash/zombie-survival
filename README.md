@@ -39,7 +39,7 @@ Zombie Survival is currently in development. Gameplay, visuals, and features may
 
 ## 📄 License — MIT
 
-Copyright (c) 2026 AmiralidlbWOrld
+Copyright (c) 2026 AmiralidlbWORLD
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
